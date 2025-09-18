@@ -47,7 +47,8 @@ It allows users to search for cities and view current weather details along with
 
 
 ## 📷 Screenshots
-
+### Home Screen
+![Home Screen](/assets/images/screenshots.png)
 
 ## 🤝 Contributing
 
