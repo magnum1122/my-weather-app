@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# 🌦️ Weather App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple weather forecast mobile app built with **React Native**, **Expo**, and the **WeatherAPI**.  
+It allows users to search for cities and view current weather details along with a 7-day forecast.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
+- 🔍 Search cities with auto-suggestions
+- 📍 Fetch real-time weather data (temperature, humidity, wind speed, condition)
+- 🌤️ 7-day weather forecast
+- 🎨 Clean UI with Tailwind CSS
+- 📱 Mobile-first, responsive design
 
+---
+
+## 🛠️ Tech Stack
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [WeatherAPI](https://www.weatherapi.com/)
+- [Tailwind CSS (NativeWind)](https://www.nativewind.dev/)
+- [Lodash (Debounce)](https://lodash.com/)
+
+---
+
+## ⚙️ Installation
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com//weather-app.git
+
+2. Navigate into the project::
+   ```bash
+   cd my-weather-app
+
+3. Install Dependencies:
    ```bash
    npm install
-   ```
 
-2. Start the app
+4. Add your WeatherAPI key in app/utils/constants.js:
+   ```bash
+   export const API_KEY = "your_api_key_here";
 
+5. Start the project:
    ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📷 Screenshots
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## 🤝 Contributing
 
-When you're ready, run:
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you’d like to change.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📜 License
 
-## Learn more
+[MIT](LICENSE)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
